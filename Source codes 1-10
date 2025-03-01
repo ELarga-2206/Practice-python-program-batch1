@@ -1,0 +1,86 @@
+#Prog01: Create a program that ask user to input 2 numbers. Print the bigger number.
+
+user_input = int(input("enter 1 number:"))
+user_input2 = int(input("enter 2nd number:"))
+
+if (user_input) > (user_input2):
+    print(user_input)
+if (user_input2) > (user_input):
+    print(user_input2)
+
+#Create a program that ask user to input 2 numbers. Print "Equal" when the numbers are the same.
+
+user_input = int(input("enter 1 number:"))
+user_input2 = int(input("enter 2nd number:"))
+
+if (user_input) == (user_input2):
+    print("Equal")
+
+else:
+    print("not equal")
+
+#Create a program that ask user to input 2 numbers. Print the sum of the two numbers.
+
+user_input = int(input("enter 1 number:"))
+user_input2 = int(input("enter 2nd number:"))
+
+print(user_input + user_input2)
+
+#Create a program that ask user to input 2 numbers. Print the product of the two numbers.
+
+user_input = int(input("enter 1 number:"))
+user_input2 = int(input("enter 2nd number:"))
+
+print(user_input * user_input2)
+
+
+#Create a program that ask user to input 2 numbers. Print the quotient of the two numbers with the decimal point
+
+user_input = int(input("enter 1 number:"))
+user_input2 = int(input("enter 2nd number:"))
+
+print(user_input / user_input2) 
+
+#Create a program that ask user to input 2 numbers. Print the result when the first number is raised to the second number.
+
+user_input = float(input("enter 1 number:"))
+user_input2 = float(input("enter 2nd number:"))
+
+print(user_input ** user_input2)
+
+#Create a program that ask user to input 10 numbers. Print the sum of all the numbers.
+
+a = int(input("enter 1st number:"))
+b = int(input("enter 2nd number:"))
+c = int(input("enter 3rd number:"))
+d = int(input("enter 4th number:"))
+e = int(input("enter 5th number:"))
+f = int(input("enter 6th number:"))
+g = int(input("enter 7th number:"))
+h = int(input("enter 8th number:"))
+i = int(input("enter 9th number:"))
+j = int(input("enter 10th number"))
+
+print(a + b + c + d + e + f + g + h + i + j)
+
+#Create a program that ask user to input 10 numbers. Print how many are odd numbers.
+
+odd_count = 0
+
+for _ in range(10):
+    num = int(input("Enter a number: "))
+    if num % 2 != 0:
+        odd_count += 1
+
+print("Number of odd numbers:", odd_count)
+
+#Create a program that print all the even numbers starting from 0 to 100. (Use for loop)
+
+for i in range(101):
+    if i % 2 == 0:
+        print(i)
+
+#Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero.
+for i in range(101):
+    if i % 10 != 0:
+        print(i)
